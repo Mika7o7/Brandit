@@ -1,0 +1,60 @@
+/* unite css settings */
+
+.wrapper {
+  width: 100%;
+  background-color: #010101;
+  padding: 30px 70px 0 70px;
+}
+
+.bg_light {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  left: -243px;
+  top: 594px;
+
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(217, 217, 217, 0.4) 0%,
+    rgba(218, 217, 217, 0.4) 100%
+  );
+  opacity: 0.3;
+  filter: blur(100px);
+}
+
+.info_button {
+  padding: 15px 20px;
+  font-size: 25px;
+  font-weight: 500;
+  width: 230px;
+  background: #6321f9;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+/* Service */
+
+.section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 25px 0 40px 0;
+}
+.section_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section_title {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 12px;
+  width: 526px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .wrapper {
+    padding: 0 12px;
+  }
+}

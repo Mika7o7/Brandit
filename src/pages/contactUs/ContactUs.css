@@ -1,0 +1,84 @@
+.contact_text {
+  font-size: 25px;
+}
+.contact_section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 25px 0 40px 0;
+}
+.contact_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 157px;
+}
+
+.contact_img {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.wrapper_contact {
+  width: 100%;
+  background-color: #010101;
+  padding: 30px 70px 100px 70px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .contact_img {
+    display: none;
+  }
+  .wrapper_contact {
+    padding: 0 30px;
+    height: 570px;
+  }
+  .section_title {
+    width: 140px;
+    height: 36px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .contact_content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 40px;
+  }
+
+  .contact_content > h2 {
+    width: 273px;
+    height: 24px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .contact_content > p {
+    width: 273px;
+    height: 48px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .contact_section {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    padding: 25px 0 40px 0;
+  }
+  .info_button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 315px;
+    height: 48px;
+  }
+}

@@ -1,0 +1,166 @@
+.comment_text {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 37.5px;
+  height: 114px;
+  margin-bottom: 40px;
+  width: 636px;
+}
+
+.section_comment {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 25px 0 40px 0;
+}
+
+.section_wrapper2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 421px;
+  height: 280px;
+  font-size: 16px;
+  background: #6321f9;
+  border-radius: 10px;
+}
+.top_underscor {
+  margin: 5px;
+}
+
+.box_middle {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 54px;
+}
+
+.box_text {
+  width: 292px;
+  height: 96px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.box_butom {
+  display: flex;
+}
+
+.box_user_comment {
+  display: flex;
+  margin-left: 58px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.box_comment_text {
+  margin-left: 12px;
+  margin-right: 73px;
+  width: 155px;
+  height: 30px;
+}
+
+.box_user_text_title {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+}
+.slaqjax {
+  display: none;
+}
+.slaqach {
+  display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .comment_text {
+    width: 331px;
+    height: 96px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .box {
+    width: 221px;
+    height: 158px;
+
+    background: #6321f9;
+    border-radius: 10px;
+  }
+  .box_middle {
+    padding-bottom: 15px;
+  }
+  .top_underscor {
+    width: 34px;
+    height: 34px;
+
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 120px;
+  }
+  .box_text {
+    width: 174px;
+    height: 48px;
+
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .box_user_text_title {
+    width: 100px;
+    height: 18px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .box_user_text {
+    width: 50px;
+    height: 12px;
+    display: flex;
+
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .box_comment_img {
+    width: 30px;
+    height: 30px;
+  }
+  .box_user_comment {
+    display: flex;
+    margin-left: 17px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  .box_comment_text {
+    margin-left: 4px;
+    margin-right: 27px;
+    width: 100px;
+    height: 30px;
+  }
+  .section_wrapper2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    position: relative;
+    left: -255px;
+  }
+  .slaqjax {
+    display: flex;
+    position: absolute;
+    right: 330px;
+    top: 2590px;
+  }
+  .slaqach {
+    display: flex;
+    position: absolute;
+    left: 330px;
+    top: 2590px;
+  }
+}

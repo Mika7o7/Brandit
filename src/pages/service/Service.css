@@ -1,0 +1,166 @@
+.service_text {
+  width: 800px;
+  line-height: 38px;
+  font-size: 25px;
+}
+
+.service_section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 25px 0 40px 0;
+}
+
+.service_wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 72px;
+  flex-wrap: wrap;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.service_box {
+  width: 522px;
+  height: 312px;
+  padding: 54px 0px 36px 40px;
+  background: #1e1e1e;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.1);
+}
+
+.service_box > h2 {
+  height: 45px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  margin-bottom: 20px;
+
+  /* identical to box height */
+
+  text-transform: uppercase;
+}
+
+.service_box > p {
+  width: 378px;
+  height: 152px;
+
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+.service_box_large {
+  width: 1116px;
+  height: 312px;
+  padding: 64px 40px 36px 40px;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.09);
+
+  background: #1e1e1e;
+}
+
+.service_box_large > h2 {
+  height: 45px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  margin-bottom: 20px;
+
+  /* identical to box height */
+
+  text-transform: uppercase;
+}
+
+.service_box_large > p {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .service_wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .section_title {
+    width: 107px;
+    height: 36px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .service_text {
+    width: 283px;
+    height: 48px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .service_section {
+    height: 700px;
+  }
+
+  .service_box {
+    width: 343px;
+    height: 160px;
+    background: #1e1e1e;
+    padding: 23px 7px 22px 7px;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.1);
+  }
+
+  .service_box > h2 {
+    width: 329px;
+    height: 33px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+  }
+
+  .service_box > p {
+    width: 329px;
+    height: 72px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .service_box_large {
+    width: 343px;
+    height: 160px;
+    padding: 23px 4px 22px;
+  }
+
+  .service_box_large > h2 {
+    width: 335px;
+    height: 33px;
+
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .service_box_large > p {
+    width: 329px;
+    height: 72px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.dark {
+  color: white;
+  background: #1e1e1e;
+}
+
+.light {
+  color: black;
+  background: #ffffff;
+}

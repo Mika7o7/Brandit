@@ -1,0 +1,87 @@
+.values_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+  flex-wrap: wrap;
+}
+.slaqach_for_values {
+  display: none;
+}
+
+.section_value {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 25px 0 40px 0;
+}
+
+.slaqjax_for_values {
+  display: none;
+}
+.values_box {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  padding: 10px;
+  margin-top: 19px;
+}
+
+.values_text {
+  width: 283px;
+  height: 147px;
+  margin-left: 17px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: justify;
+}
+
+.values_text > h2 {
+  margin-bottom: 6px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .values_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    flex-wrap: nowrap;
+    position: relative;
+    left: -55px;
+    gap: 50px;
+  }
+  .values_text > h2 {
+    width: 63px;
+    height: 21px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .values_text > p {
+    width: 252px;
+    height: 108px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .values_box > img {
+    width: 30px;
+    height: 24px;
+  }
+  .slaqjax_for_values {
+    display: flex;
+    position: absolute;
+    right: 330px;
+    top: 2880px;
+  }
+  .slaqach_for_values {
+    display: flex;
+    position: absolute;
+    left: 330px;
+    top: 2880px;
+  }
+}

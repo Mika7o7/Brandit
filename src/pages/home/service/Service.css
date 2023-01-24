@@ -1,0 +1,119 @@
+.section_service {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 25px 0 40px 0;
+}
+
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 421px;
+  height: 280px;
+  background: #6321f9 url("../../../logos/Untitled-1.png") no-repeat;
+  border-radius: 10px;
+}
+
+.box2 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 421px;
+  height: 280px;
+  background: #6321f9 url("../../../logos/Untitled-2.png") no-repeat;
+  border-radius: 10px;
+}
+
+.box3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 421px;
+  height: 280px;
+  background: #6321f9 url("../../../logos/Untitled-3.png") no-repeat right top;
+  border-radius: 10px;
+}
+
+.main_text {
+  font-weight: 700;
+  font-size: 45.8721px;
+  line-height: 69px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .section_title {
+    font-size: 24px;
+    margin-bottom: 5px;
+    width: 300px;
+  }
+  .info_text {
+    width: 360px;
+  }
+  .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99.74098205566406px;
+    width: 130.9676971435547px;
+
+    border-radius: 3.5621776580810547px;
+
+    background: #6321f9 url("../../../logos/Untitled-1.png") no-repeat;
+    background-size: 80px 80px;
+  }
+  .box2 {
+    display: flex;
+    background: #6321f9 url("../../../logos/Untitled-2.png") no-repeat;
+    height: 99.74098205566406px;
+    width: 130.9676971435547px;
+    border-radius: 3.5621776580810547px;
+    padding: 0;
+    justify-content: center;
+    background-size: 80px 80px;
+  }
+  .box2 > h2 {
+    width: 98px;
+    height: 48px;
+    left: 24.58px;
+    top: 25.29px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6321f9 url("../../../logos/Untitled-3.png") no-repeat right top;
+    background-size: 80px 80px;
+
+    height: 99.74098205566406px;
+    width: 130.9676971435547px;
+    border-radius: 3.5621776580810547px;
+  }
+
+  .main_text {
+    width: 82px;
+    height: 24px;
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-transform: uppercase;
+  }
+  .section_wrapper {
+    gap: 5px;
+  }
+}
