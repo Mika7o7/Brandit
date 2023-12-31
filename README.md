@@ -44,7 +44,7 @@ Make sure you have the following installed on your machine:
 After completing the installation steps, you can run the project locally. Use the following commands:
 Development Mode
 
-    yarn run
+    yarn start
 
 and chuse start
 
